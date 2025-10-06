@@ -40,7 +40,7 @@
 
 .logo-icon {
   font-size: 32px;
-  background: linear-gradient(135deg, var(--accent-cyan), var(--accent-purple));
+  background: linear-gradient(135deg, var(--accent-cyan), var(--accent-blue));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: pulse-glow 2s ease infinite;
@@ -80,7 +80,7 @@
   left: 0;
   width: 0;
   height: 2px;
-  background: linear-gradient(90deg, var(--accent-cyan), var(--accent-purple));
+  background: linear-gradient(90deg, var(--accent-cyan), var(--accent-blue));
   transition: width 0.3s ease;
 }
 

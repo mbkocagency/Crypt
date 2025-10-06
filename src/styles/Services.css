@@ -10,7 +10,7 @@
   transform: translateX(-50%);
   width: 600px;
   height: 600px;
-  background: radial-gradient(circle, rgba(168, 85, 247, 0.1), transparent 70%);
+  background: radial-gradient(circle, rgba(59, 130, 246, 0.1), transparent 70%);
   pointer-events: none;
 }
 
@@ -55,8 +55,8 @@
 }
 
 .service-card.popular {
-  border-color: var(--accent-purple);
-  background: rgba(168, 85, 247, 0.05);
+  border-color: var(--accent-blue);
+  background: rgba(59, 130, 246, 0.05);
 }
 
 .service-card.popular::before {
@@ -66,7 +66,7 @@
   left: -50%;
   width: 200%;
   height: 200%;
-  background: radial-gradient(circle, rgba(168, 85, 247, 0.15), transparent 60%);
+  background: radial-gradient(circle, rgba(59, 130, 246, 0.15), transparent 60%);
   animation: rotate-glow 15s linear infinite;
 }
 
@@ -74,7 +74,7 @@
   position: absolute;
   top: 20px;
   right: -35px;
-  background: linear-gradient(135deg, var(--accent-purple), var(--accent-pink));
+  background: linear-gradient(135deg, var(--accent-blue), var(--accent-teal));
   color: white;
   padding: 8px 45px;
   font-size: 12px;
@@ -82,7 +82,7 @@
   text-transform: uppercase;
   letter-spacing: 1px;
   transform: rotate(45deg);
-  box-shadow: 0 4px 15px rgba(168, 85, 247, 0.5);
+  box-shadow: 0 4px 15px rgba(59, 130, 246, 0.5);
 }
 
 .service-header {
